@@ -99,7 +99,6 @@ connection {
     inline = [
       "sudo yum install httpd  php git -y",
       "sudo yum -y update",  
-      "sudo reboot",  
       "sudo yum -y install nfs-utils",
       "sudo service httpd enable",
       "sudo service  httpd restart ",
